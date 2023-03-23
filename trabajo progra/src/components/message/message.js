@@ -1,4 +1,4 @@
-class messagess extends HTMLElement {
+class messages extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({mode: 'open'})
@@ -14,4 +14,4 @@ class messagess extends HTMLElement {
 
 }
 
-customElements.define('element-message', message);
+customElements.define('element-message', messages);

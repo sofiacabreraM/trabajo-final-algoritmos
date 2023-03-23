@@ -1,5 +1,4 @@
-import "./components/register/register.js"
-
+import "./components/export.js"
 
 class AppContainer extends HTMLElement{
     constructor(){
@@ -12,10 +11,10 @@ class AppContainer extends HTMLElement{
 
     }
     
-    render()
-      
-         
+    
+    render() {
+        this.shadowRoot.innerHTML = `<element-homepage></element-homepage>`;
     }
-
+}
 
 customElements.define('app-container', AppContainer);

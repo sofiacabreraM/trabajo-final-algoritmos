@@ -16,5 +16,3 @@ class register extends HTMLElement {
     }
 }
 customElements.define('app-register', register)
-
-

@@ -14,4 +14,4 @@ class search extends HTMLElement {
 
 }
 
-customElements.define('element-search', searchs);
+customElements.define('element-search', search);
