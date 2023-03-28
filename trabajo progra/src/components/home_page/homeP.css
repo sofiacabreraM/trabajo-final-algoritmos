@@ -1,3 +1,144 @@
+<<<<<<< HEAD
+.logo {
+    float: left;
+    margin-right: 5px;
+     width: 80px;
+    height: 100px;
+
+  }
+
+  .logo2{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  
+  .search-bar {
+   
+    width: 50px;
+    height:50px;
+    
+  }
+  
+  .principal-container{
+
+    width: 100%;
+    height: 100%;
+  } 
+
+  .search-barlogo{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding-top: 20px;
+  }
+
+  .search2 {
+
+    width: 285px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    border: none;
+    background-image: url('../../../image/searching.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+  }
+
+
+  .Stories2{ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+  }
+
+  .post, .post2 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #67d9fe;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #faf9f9;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-content img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .likes,
+  .comments {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+.buttons{
+
+    transition: transform 0.3s ease;
+     opacity: 0.8;
+     transition: opacity 0.3s ease;
+      opacity: 1;
+      
+    
+}
+.like{
+    padding-right: 5px;
+    
+}
+.coment{
+    padding-right: 5px;
+}
+.Share{
+    padding-right: 230px;
+}
+
+.M{
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+
+@media screen and (min-width: 1512px) {
+
+
+
+
+
+  }
+=======
 .containerLeft{
     background-color: #EEEEEE;
     width: 30%;
@@ -163,3 +304,4 @@ align-items: center;
 
 
 
+>>>>>>> 30ae6dd21bc00df81c4acf678bf8b672dc01897a

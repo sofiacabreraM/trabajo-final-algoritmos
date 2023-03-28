@@ -12,7 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "serve": "^14.2.0",
+<<<<<<< HEAD
+    "webpack": "^5.76.3",
+=======
     "webpack": "^5.76.2",
+>>>>>>> 30ae6dd21bc00df81c4acf678bf8b672dc01897a
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {

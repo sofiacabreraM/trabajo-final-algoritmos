@@ -1,0 +1,75 @@
+.stories{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .story-circle {
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 3px;
+    background-image: url("../../../image/miukidi.png");
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .story-circle2 {
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-image: url("../../../image/kunis3.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .story-circle3 {
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .story-circle4 {
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+    background-image: url("../../../image/kyle.2.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  
+  h1{
+    font-size: small;
+ 
+  }
+  h2{
+    font-size: small;
+ 
+  }
+  h3{
+    font-size: small;
+ 
+  }
+  h4{
+    font-size: small;
+ 
+  }
+
+ 
