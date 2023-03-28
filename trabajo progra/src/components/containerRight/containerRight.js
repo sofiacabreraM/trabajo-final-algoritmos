@@ -1,7 +1,7 @@
-class homepage extends HTMLElement {
+class containerRight extends HTMLElement {
 
     static get observedattributes(){
-       return("user_mame", "publication", "likes", "description")
+        return("user_mame", "publication", "likes", "description")
     }
     
     constructor() {
@@ -19,35 +19,7 @@ class homepage extends HTMLElement {
     }
 
     render(){
-        this.shadowRoot.innerHTML = `<link rel="stylesheet" href="../src/components/home_page/homeP.css">
-        <section class="containgeneral">
-        <section class="containerLeft">
-        <img id="img_profile" alt="imagen chica" src="${"https://i.pinimg.com/564x/90/1d/88/901d884af8a56eed59d4578291a70aaf.jpg"}"></img>
-        <h5 id="user_name">@laitana</h5>
-        <div class="profile">
-        <nav class="post">
-        <h4>9</h4>
-        <h5>post</h5>
-        </nav>
-        <nav class="followers">
-        <h4>15k</h4>
-        <h5>followers</h5>
-        </nav>
-        <nav class="following">
-        <h4>55</h4>
-        <h5>following</h5>
-        </nav>
-        </div>
-        <div class="interactions">
-       <div class=menu_interactions> <img class ="intercation_img" src="../imagenes/home2.png" alt="me gusta"></img>
-       <h4 id="color">home</h4></div>
-        <h4>notifications</h4>
-        <h4>explore</h4>
-        <h4>messages</h4>
-        <h4>profile</h4>
-        </div>
-     
-        </section>
+        this.shadowRoot.innerHTML = `<link rel="stylesheet" href="../src/components/containerRight/ContainerRight.css">
         <section class="containerRight">
         <div class="contenido1">
         <div class="search">
@@ -87,14 +59,11 @@ class homepage extends HTMLElement {
         
         </section>
         
-        </section>
+
        
-        </section>
-        `
-    }
+    `
+}
 
 }
 
-
-
-customElements.define('element-homepage', homepage); 
+customElements.define('element-containerRight', containerRight); 

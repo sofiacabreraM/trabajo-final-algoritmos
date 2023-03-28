@@ -5,4 +5,3 @@ export{default as search} from './search/search.js'
 export{default as home_page} from './home_page/home_page.js'
 export{default as register} from './register/register.js'
 export{default as login} from './login/login.js'
-

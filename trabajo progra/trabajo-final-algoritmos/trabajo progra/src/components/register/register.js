@@ -11,17 +11,8 @@ class register extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML = ``
          
-        const section = document.createElement('section');
-        const title = document.createElement('h2')
-        const inicio = document.createElement('app-inicio')
-        title.textContent = 'Caffeto'
-         section.appendChild(title)
-         
-
-         this.shadowRoot.appendChild(section)
+        
         
     }
 }
 customElements.define('app-register', register)
-
-

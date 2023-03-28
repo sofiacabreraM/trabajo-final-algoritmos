@@ -1,4 +1,4 @@
-class messagess extends HTMLElement {
+class profile extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({mode: 'open'})
@@ -9,9 +9,9 @@ class messagess extends HTMLElement {
     }
 
     render(){
-        this.shadowRoot.innerHTML = `<p>message</p>`;
+        this.shadowRoot.innerHTML = `<p>profile</p>`;
     }
 
 }
 
-customElements.define('element-message', message);
+customElements.define('element-profile', profile);
